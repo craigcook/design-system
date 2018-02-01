@@ -119,6 +119,14 @@ dl,
 table {
   margin-bottom: 1.25em; }
 
+code {
+  font-size: 12px;
+  font-size: 0.6666666667rem; }
+  @media screen and (min-width: 760px) {
+    code {
+      font-size: 14px;
+      font-size: 0.7777777778rem; } }
+
 a {
   color: #00a7e0;
   text-decoration: underline; }
