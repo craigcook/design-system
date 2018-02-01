@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html class="drizzle-Layout">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Forms - Mozilla Design System</title>
+    <link rel="stylesheet" href="../../assets/drizzle/styles/drizzle.css">
+    <link rel="stylesheet" href="../../assets/css/pebbles/global.css">
+    <link rel="stylesheet" href="../../assets/css/system/system-site.css">
+  </head>
+  <body class="drizzle-Layout-body">
+    
+    <nav class="mds-nav" id="nav">
+      <header class="mds-nav-head">
+        <a href="https://www.mozilla.org">
+          <img class="mds-nav-mozlogo" src="../../static/img/mozilla-wordmark-white.svg" width="100" alt="Mozilla">
+        </a>
+        <a class="drizzle-Nav-header-toggle" href="#nav">
+          <svg viewBox="-1 -1 12 7" width="16" height="16">
+            <polyline fill="none" stroke="currentColor" stroke-width="2" points="0 0 5 5 10 0"/>
+          </svg>
+        </a>
+      </header>
+    
+      <div class="mds-nav-menu" id="nav-menu">
+        <ul>
+            <li class="mds-nav-item">
+                <a class="mds-nav-link" href="../../index.html">
+                  Mozilla Design System
+                </a>
+            </li>
+            <li class="mds-nav-item">
+                <a class="mds-nav-link" href="../../principles.html">
+                  Design Principles
+                </a>
+            </li>
+            <li class="mds-nav-item">
+                <a class="mds-nav-link" href="../../colors.html">
+                  Brand Colors
+                </a>
+            </li>
+            <li class="mds-nav-item">
+                <a class="mds-nav-link" href="../../typography.html">
+                  Typography
+                </a>
+            </li>
+        </ul>
+    
+        <h5>Elements</h5>
+        <ul>
+            <li class="mds-nav-item">
+                <a class="mds-nav-link" href="../../patterns/elements/typographic.html">
+                  Text
+                </a>
+            </li>
+            <li class="mds-nav-item">
+                <a class="mds-nav-link" href="../../patterns/elements/forms.html">
+                  Forms
+                </a>
+            </li>
+        </ul>
+    
+        <h5>Components</h5>
+        <ul>
+            <li class="mds-nav-item">
+                <a class="mds-nav-link" href="../../patterns/components/button.html">
+                  Button
+                </a>
+            </li>
+        </ul>
+    
+        <h5>Other Stuff</h5>
+        <ul>
+          <li class="mds-nav-item">
+                <a class="mds-nav-link" href="../../docs/index.html">
+                  Documentation
+                </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main role="main" class="mds-main">
+    <h1>Forms</h1>
+    Use meaningful markup like lists and paragraphs to give forms a logical structure. A form control should almost always be paired with a useful label.
+
+      <div class="drizzle-Item drizzle-u-rhythm">
+  <div class="drizzle-u-marginEnds">
+<h2 id="text-input" class="
+  drizzle-u-inlineBlock
+  drizzle-u-alignMiddle
+  drizzle-u-padRight">
+    <a href="#text-input" class="drizzle-u-linkHidden">      Text input
+</a>
+</h2>
+  </div>
+    <div class="drizzle-u-inlineBlock">
+      <ul class="drizzle-Arrange drizzle-Arrange--withGutter">
+          <li class="drizzle-Arrange-sizeFit">
+            <a class="drizzle-Item-control" href="https://developer.mozilla.org/docs/Web/HTML/Element/input">
+              <svg viewBox="0 0 11 12">
+                <path d="M8.29289322,8.29289322 C8.11192881,8.47385763 8,8.72385763 8,9 L8,9.99895656 C8,10.5497993 7.55127164,11 7.0026083,11 L1.9973917,11 C1.44746825,11 1,10.5527784 1,10.0026083 L1,4.9973917 C1,4.44787731 1.44844877,4 2.00104344,4 L3,4 C3.27614237,4 3.52614237,3.88807119 3.70710678,3.70710678 L3,3 L2.00104344,3 C0.895897664,3 0,3.89585781 0,4.9973917 L0,10.0026083 C0,11.1057373 0.895857811,12 1.9973917,12 L7.0026083,12 C8.10573727,12 9,11.0999011 9,9.99895656 L9,9 L8.29289322,8.29289322 L8.29289322,8.29289322 Z"></path>
+                <path d="M6.9505215,3.81444077 L4.21751445,0.98959236 L11.0000001,0.999999934 L10.9999997,7.99999974 L8.34122783,5.2518811 L4.68908982,8.72467594 C4.28886233,9.10524972 3.65589784,9.08931724 3.27532406,8.68908975 C2.89475028,8.28886226 2.91068276,7.65589777 3.31091025,7.27532399 L6.9505215,3.81444077 L6.9505215,3.81444077 Z"></path>
+              </svg>
+              MDN &lt;input&gt;
+            </a>
+          </li>
+          <li class="drizzle-Arrange-sizeFit">
+            <a class="drizzle-Item-control" href="https://developer.mozilla.org/docs/Web/HTML/Element/label">
+              <svg viewBox="0 0 11 12">
+                <path d="M8.29289322,8.29289322 C8.11192881,8.47385763 8,8.72385763 8,9 L8,9.99895656 C8,10.5497993 7.55127164,11 7.0026083,11 L1.9973917,11 C1.44746825,11 1,10.5527784 1,10.0026083 L1,4.9973917 C1,4.44787731 1.44844877,4 2.00104344,4 L3,4 C3.27614237,4 3.52614237,3.88807119 3.70710678,3.70710678 L3,3 L2.00104344,3 C0.895897664,3 0,3.89585781 0,4.9973917 L0,10.0026083 C0,11.1057373 0.895857811,12 1.9973917,12 L7.0026083,12 C8.10573727,12 9,11.0999011 9,9.99895656 L9,9 L8.29289322,8.29289322 L8.29289322,8.29289322 Z"></path>
+                <path d="M6.9505215,3.81444077 L4.21751445,0.98959236 L11.0000001,0.999999934 L10.9999997,7.99999974 L8.34122783,5.2518811 L4.68908982,8.72467594 C4.28886233,9.10524972 3.65589784,9.08931724 3.27532406,8.68908975 C2.89475028,8.28886226 2.91068276,7.65589777 3.31091025,7.27532399 L6.9505215,3.81444077 L6.9505215,3.81444077 Z"></path>
+              </svg>
+              MDN &lt;label&gt;
+            </a>
+          </li>
+      </ul>
+    </div>
+  <div class="drizzle-u-border">
+    <div class="drizzle-u-pad drizzle-u-cf drizzle-u-posRelative ">
+      
+<label for="text">Text</label>
+<input type="text" name="text" id="text">
+
+    </div>
+      <pre class="drizzle-u-borderTop drizzle-u-pad"><code class="language-markup">&lt;label for&#x3D;&quot;text&quot;&gt;
+  Text&lt;/label&gt;
+&lt;input type&#x3D;&quot;text&quot; name&#x3D;&quot;text&quot; id&#x3D;&quot;text&quot;&gt;</code></pre>
+  </div>
+</div>
+      <div class="drizzle-Item drizzle-u-rhythm">
+  <div class="drizzle-u-marginEnds">
+<h2 id="input-with-placeholder" class="
+  drizzle-u-inlineBlock
+  drizzle-u-alignMiddle
+  drizzle-u-padRight">
+    <a href="#input-with-placeholder" class="drizzle-u-linkHidden">      Input with placeholder
+</a>
+</h2>
+  </div>
+    <div class="drizzle-Item-notes drizzle-u-rhythm">
+      <p>Field placeholders should show an example of the expected input, such as suggested search terms or a demonstration of a correctly formatted email address. The placeholder attribute should <strong>not</strong> be used as a substitute for a label.</p>
+
+    </div>
+  <div class="drizzle-u-border">
+    <div class="drizzle-u-pad drizzle-u-cf drizzle-u-posRelative ">
+      
+<label for="email">E-mail</label>
+<input type="email" name="email" id="email" placeholder="you@example.com">
+
+    </div>
+      <pre class="drizzle-u-borderTop drizzle-u-pad"><code class="language-markup">&lt;label for&#x3D;&quot;email&quot;&gt;
+  E-mail&lt;/label&gt;
+&lt;input type&#x3D;&quot;email&quot; name&#x3D;&quot;email&quot; id&#x3D;&quot;email&quot; placeholder&#x3D;&quot;you@example.com&quot;&gt;</code></pre>
+  </div>
+</div>
+      <div class="drizzle-Item drizzle-u-rhythm">
+  <div class="drizzle-u-marginEnds">
+<h2 id="radio-buttons" class="
+  drizzle-u-inlineBlock
+  drizzle-u-alignMiddle
+  drizzle-u-padRight">
+    <a href="#radio-buttons" class="drizzle-u-linkHidden">      Radio Buttons
+</a>
+</h2>
+  </div>
+    <div class="drizzle-Item-notes drizzle-u-rhythm">
+      <p>Radio buttons represent a set of options where only one may be selected.</p>
+
+    </div>
+  <div class="drizzle-u-border">
+    <div class="drizzle-u-pad drizzle-u-cf drizzle-u-posRelative ">
+      
+<label for="radio-1">
+  <input type="radio" name="radios" id="radio-1"> Option 1
+</label>
+<label for="radio-2">
+  <input type="radio" name="radios" id="radio-2"> Option 2
+</label>
+
+    </div>
+      <pre class="drizzle-u-borderTop drizzle-u-pad"><code class="language-markup">&lt;label for&#x3D;&quot;radio-1&quot;&gt;
+  &lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;radios&quot; id&#x3D;&quot;radio-1&quot;&gt; Option 1
+&lt;/label&gt;
+&lt;label for&#x3D;&quot;radio-2&quot;&gt;
+  &lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;radios&quot; id&#x3D;&quot;radio-2&quot;&gt; Option 2
+&lt;/label&gt;</code></pre>
+  </div>
+</div>
+      <div class="drizzle-Item drizzle-u-rhythm">
+  <div class="drizzle-u-marginEnds">
+<h2 id="checkboxes" class="
+  drizzle-u-inlineBlock
+  drizzle-u-alignMiddle
+  drizzle-u-padRight">
+    <a href="#checkboxes" class="drizzle-u-linkHidden">      Checkboxes
+</a>
+</h2>
+  </div>
+    <div class="drizzle-Item-notes drizzle-u-rhythm">
+      <p>Checkboxes represent a set of options where multiple selections are allowed.</p>
+<p>Also use a checkbox for a binary choice (such as a yes or no question) rather than two radio buttons. A radio button, once activated, cannot be deactivated, whereas a single checkbox behaves as a switch to let a user toggle between the two states (you can uncheck a checked checkbox).</p>
+
+    </div>
+  <div class="drizzle-u-border">
+    <div class="drizzle-u-pad drizzle-u-cf drizzle-u-posRelative ">
+      
+<label for="checkbox-1">
+  <input type="checkbox" name="checkboxes" id="checkbox-1"> Option 1
+</label>
+<label for="checkbox-2">
+  <input type="checkbox" name="checkboxes" id="checkbox-2"> Option 2
+</label>
+
+    </div>
+      <pre class="drizzle-u-borderTop drizzle-u-pad"><code class="language-markup">&lt;label for&#x3D;&quot;checkbox-1&quot;&gt;
+  &lt;input type&#x3D;&quot;checkbox&quot; name&#x3D;&quot;checkboxes&quot; id&#x3D;&quot;checkbox-1&quot;&gt; Option 1
+&lt;/label&gt;
+&lt;label for&#x3D;&quot;checkbox-2&quot;&gt;
+  &lt;input type&#x3D;&quot;checkbox&quot; name&#x3D;&quot;checkboxes&quot; id&#x3D;&quot;checkbox-2&quot;&gt; Option 2
+&lt;/label&gt;</code></pre>
+  </div>
+</div>
+      <div class="drizzle-Item drizzle-u-rhythm">
+  <div class="drizzle-u-marginEnds">
+<h2 id="select" class="
+  drizzle-u-inlineBlock
+  drizzle-u-alignMiddle
+  drizzle-u-padRight">
+    <a href="#select" class="drizzle-u-linkHidden">      Select
+</a>
+</h2>
+  </div>
+    <div class="drizzle-u-inlineBlock">
+      <ul class="drizzle-Arrange drizzle-Arrange--withGutter">
+          <li class="drizzle-Arrange-sizeFit">
+            <a class="drizzle-Item-control" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select">
+              <svg viewBox="0 0 11 12">
+                <path d="M8.29289322,8.29289322 C8.11192881,8.47385763 8,8.72385763 8,9 L8,9.99895656 C8,10.5497993 7.55127164,11 7.0026083,11 L1.9973917,11 C1.44746825,11 1,10.5527784 1,10.0026083 L1,4.9973917 C1,4.44787731 1.44844877,4 2.00104344,4 L3,4 C3.27614237,4 3.52614237,3.88807119 3.70710678,3.70710678 L3,3 L2.00104344,3 C0.895897664,3 0,3.89585781 0,4.9973917 L0,10.0026083 C0,11.1057373 0.895857811,12 1.9973917,12 L7.0026083,12 C8.10573727,12 9,11.0999011 9,9.99895656 L9,9 L8.29289322,8.29289322 L8.29289322,8.29289322 Z"></path>
+                <path d="M6.9505215,3.81444077 L4.21751445,0.98959236 L11.0000001,0.999999934 L10.9999997,7.99999974 L8.34122783,5.2518811 L4.68908982,8.72467594 C4.28886233,9.10524972 3.65589784,9.08931724 3.27532406,8.68908975 C2.89475028,8.28886226 2.91068276,7.65589777 3.31091025,7.27532399 L6.9505215,3.81444077 L6.9505215,3.81444077 Z"></path>
+              </svg>
+              MDN &lt;select&gt;
+            </a>
+          </li>
+          <li class="drizzle-Arrange-sizeFit">
+            <a class="drizzle-Item-control" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option">
+              <svg viewBox="0 0 11 12">
+                <path d="M8.29289322,8.29289322 C8.11192881,8.47385763 8,8.72385763 8,9 L8,9.99895656 C8,10.5497993 7.55127164,11 7.0026083,11 L1.9973917,11 C1.44746825,11 1,10.5527784 1,10.0026083 L1,4.9973917 C1,4.44787731 1.44844877,4 2.00104344,4 L3,4 C3.27614237,4 3.52614237,3.88807119 3.70710678,3.70710678 L3,3 L2.00104344,3 C0.895897664,3 0,3.89585781 0,4.9973917 L0,10.0026083 C0,11.1057373 0.895857811,12 1.9973917,12 L7.0026083,12 C8.10573727,12 9,11.0999011 9,9.99895656 L9,9 L8.29289322,8.29289322 L8.29289322,8.29289322 Z"></path>
+                <path d="M6.9505215,3.81444077 L4.21751445,0.98959236 L11.0000001,0.999999934 L10.9999997,7.99999974 L8.34122783,5.2518811 L4.68908982,8.72467594 C4.28886233,9.10524972 3.65589784,9.08931724 3.27532406,8.68908975 C2.89475028,8.28886226 2.91068276,7.65589777 3.31091025,7.27532399 L6.9505215,3.81444077 L6.9505215,3.81444077 Z"></path>
+              </svg>
+              MDN &lt;option&gt;
+            </a>
+          </li>
+      </ul>
+    </div>
+  <div class="drizzle-u-border">
+    <div class="drizzle-u-pad drizzle-u-cf drizzle-u-posRelative ">
+      
+<select name="language" id="language">
+  <option value="en-US">English (US)</option>
+  <option value="de">Deutsch</option>
+  <option value="fr">Français</option>
+  <option value="es-ES">Español</option>
+  <option value="ja">日本語</option>
+</select>
+
+    </div>
+      <pre class="drizzle-u-borderTop drizzle-u-pad"><code class="language-markup">&lt;select name&#x3D;&quot;language&quot; id&#x3D;&quot;language&quot;&gt;
+  &lt;option value&#x3D;&quot;en-US&quot;&gt;English (US)&lt;/option&gt;
+  &lt;option value&#x3D;&quot;de&quot;&gt;Deutsch&lt;/option&gt;
+  &lt;option value&#x3D;&quot;fr&quot;&gt;Français&lt;/option&gt;
+  &lt;option value&#x3D;&quot;es-ES&quot;&gt;Español&lt;/option&gt;
+  &lt;option value&#x3D;&quot;ja&quot;&gt;日本語&lt;/option&gt;
+&lt;/select&gt;</code></pre>
+  </div>
+</div>
+      <div class="drizzle-Item drizzle-u-rhythm">
+  <div class="drizzle-u-marginEnds">
+<h2 id="textarea" class="
+  drizzle-u-inlineBlock
+  drizzle-u-alignMiddle
+  drizzle-u-padRight">
+    <a href="#textarea" class="drizzle-u-linkHidden">      Textarea
+</a>
+</h2>
+  </div>
+    <div class="drizzle-u-inlineBlock">
+      <ul class="drizzle-Arrange drizzle-Arrange--withGutter">
+          <li class="drizzle-Arrange-sizeFit">
+            <a class="drizzle-Item-control" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea">
+              <svg viewBox="0 0 11 12">
+                <path d="M8.29289322,8.29289322 C8.11192881,8.47385763 8,8.72385763 8,9 L8,9.99895656 C8,10.5497993 7.55127164,11 7.0026083,11 L1.9973917,11 C1.44746825,11 1,10.5527784 1,10.0026083 L1,4.9973917 C1,4.44787731 1.44844877,4 2.00104344,4 L3,4 C3.27614237,4 3.52614237,3.88807119 3.70710678,3.70710678 L3,3 L2.00104344,3 C0.895897664,3 0,3.89585781 0,4.9973917 L0,10.0026083 C0,11.1057373 0.895857811,12 1.9973917,12 L7.0026083,12 C8.10573727,12 9,11.0999011 9,9.99895656 L9,9 L8.29289322,8.29289322 L8.29289322,8.29289322 Z"></path>
+                <path d="M6.9505215,3.81444077 L4.21751445,0.98959236 L11.0000001,0.999999934 L10.9999997,7.99999974 L8.34122783,5.2518811 L4.68908982,8.72467594 C4.28886233,9.10524972 3.65589784,9.08931724 3.27532406,8.68908975 C2.89475028,8.28886226 2.91068276,7.65589777 3.31091025,7.27532399 L6.9505215,3.81444077 L6.9505215,3.81444077 Z"></path>
+              </svg>
+              MDN &lt;textarea&gt;
+            </a>
+          </li>
+      </ul>
+    </div>
+  <div class="drizzle-u-border">
+    <div class="drizzle-u-pad drizzle-u-cf drizzle-u-posRelative ">
+      
+<label for="textarea">Text area</label>
+<textarea name="textarea" id="textarea" rows="3" cols="40"></textarea>
+
+    </div>
+      <pre class="drizzle-u-borderTop drizzle-u-pad"><code class="language-markup">&lt;label for&#x3D;&quot;textarea&quot;&gt;
+  Text area&lt;/label&gt;
+&lt;textarea name&#x3D;&quot;textarea&quot; id&#x3D;&quot;textarea&quot; rows&#x3D;&quot;3&quot; cols&#x3D;&quot;40&quot;&gt;&lt;/textarea&gt;</code></pre>
+  </div>
+</div>
+      <div class="drizzle-Item drizzle-u-rhythm">
+  <div class="drizzle-u-marginEnds">
+<h2 id="fieldset-with-legend" class="
+  drizzle-u-inlineBlock
+  drizzle-u-alignMiddle
+  drizzle-u-padRight">
+    <a href="#fieldset-with-legend" class="drizzle-u-linkHidden">      Fieldset with legend
+</a>
+</h2>
+  </div>
+    <div class="drizzle-Item-notes drizzle-u-rhythm">
+      <p>Use <code>fieldset</code> to group related fields together. Include a <code>legend</code> as a title.</p>
+
+    </div>
+    <div class="drizzle-u-inlineBlock">
+      <ul class="drizzle-Arrange drizzle-Arrange--withGutter">
+          <li class="drizzle-Arrange-sizeFit">
+            <a class="drizzle-Item-control" href="https://developer.mozilla.org/docs/Web/HTML/Element/fieldset">
+              <svg viewBox="0 0 11 12">
+                <path d="M8.29289322,8.29289322 C8.11192881,8.47385763 8,8.72385763 8,9 L8,9.99895656 C8,10.5497993 7.55127164,11 7.0026083,11 L1.9973917,11 C1.44746825,11 1,10.5527784 1,10.0026083 L1,4.9973917 C1,4.44787731 1.44844877,4 2.00104344,4 L3,4 C3.27614237,4 3.52614237,3.88807119 3.70710678,3.70710678 L3,3 L2.00104344,3 C0.895897664,3 0,3.89585781 0,4.9973917 L0,10.0026083 C0,11.1057373 0.895857811,12 1.9973917,12 L7.0026083,12 C8.10573727,12 9,11.0999011 9,9.99895656 L9,9 L8.29289322,8.29289322 L8.29289322,8.29289322 Z"></path>
+                <path d="M6.9505215,3.81444077 L4.21751445,0.98959236 L11.0000001,0.999999934 L10.9999997,7.99999974 L8.34122783,5.2518811 L4.68908982,8.72467594 C4.28886233,9.10524972 3.65589784,9.08931724 3.27532406,8.68908975 C2.89475028,8.28886226 2.91068276,7.65589777 3.31091025,7.27532399 L6.9505215,3.81444077 L6.9505215,3.81444077 Z"></path>
+              </svg>
+              MDN &lt;fieldset&gt;
+            </a>
+          </li>
+          <li class="drizzle-Arrange-sizeFit">
+            <a class="drizzle-Item-control" href="https://developer.mozilla.org/docs/Web/HTML/Element/legend">
+              <svg viewBox="0 0 11 12">
+                <path d="M8.29289322,8.29289322 C8.11192881,8.47385763 8,8.72385763 8,9 L8,9.99895656 C8,10.5497993 7.55127164,11 7.0026083,11 L1.9973917,11 C1.44746825,11 1,10.5527784 1,10.0026083 L1,4.9973917 C1,4.44787731 1.44844877,4 2.00104344,4 L3,4 C3.27614237,4 3.52614237,3.88807119 3.70710678,3.70710678 L3,3 L2.00104344,3 C0.895897664,3 0,3.89585781 0,4.9973917 L0,10.0026083 C0,11.1057373 0.895857811,12 1.9973917,12 L7.0026083,12 C8.10573727,12 9,11.0999011 9,9.99895656 L9,9 L8.29289322,8.29289322 L8.29289322,8.29289322 Z"></path>
+                <path d="M6.9505215,3.81444077 L4.21751445,0.98959236 L11.0000001,0.999999934 L10.9999997,7.99999974 L8.34122783,5.2518811 L4.68908982,8.72467594 C4.28886233,9.10524972 3.65589784,9.08931724 3.27532406,8.68908975 C2.89475028,8.28886226 2.91068276,7.65589777 3.31091025,7.27532399 L6.9505215,3.81444077 L6.9505215,3.81444077 Z"></path>
+              </svg>
+              MDN &lt;legend&gt;
+            </a>
+          </li>
+      </ul>
+    </div>
+  <div class="drizzle-u-border">
+    <div class="drizzle-u-pad drizzle-u-cf drizzle-u-posRelative ">
+      
+<fieldset>
+  <legend>Your name</legend>
+  <p>
+    <label for="name-given">Given name</label>
+    <input type="text" id="name-given" name="givenname">
+
+    <label for="name-family">Family name</label>
+    <input type="text" id="name-family" name="familyname">
+  </p>
+</fieldset>
+
+    </div>
+      <pre class="drizzle-u-borderTop drizzle-u-pad"><code class="language-markup">&lt;fieldset&gt;
+  &lt;legend&gt;Your name&lt;/legend&gt;
+  &lt;p&gt;
+    &lt;label for&#x3D;&quot;name-given&quot;&gt;Given name&lt;/label&gt;
+    &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;name-given&quot; name&#x3D;&quot;givenname&quot;&gt;
+
+    &lt;label for&#x3D;&quot;name-family&quot;&gt;Family name&lt;/label&gt;
+    &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;name-family&quot; name&#x3D;&quot;familyname&quot;&gt;
+  &lt;/p&gt;
+&lt;/fieldset&gt;</code></pre>
+  </div>
+</div>
+    </div>
+    <script src="../../assets/drizzle/scripts/drizzle.js"></script>
+  </body>
+</html>
