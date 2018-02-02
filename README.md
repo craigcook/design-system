@@ -1,19 +1,23 @@
-# Drizzle
+# Mozilla Design System
 
-> A streamlined tool for developing, documenting and presenting UI pattern libraries.
+A modular design system for Mozilla websites.
 
 ## Quick Start
 
-0. [Download](https://github.com/cloudfour/drizzle/archive/master.zip)
-0. `npm start`
+This design system uses [Drizzle](https://github.com/cloudfour/drizzle/), a Node-based toolkit for developing and presenting UI pattern libraries, by [Cloud Four](https://cloudfour.com/).
+
+0. Ensure you have [Node.js](https://nodejs.org/) installed.
+1. Download or clone this repository.
+2. Run `npm start` in the resulting directory.
+
+This will install dependencies, build the site, and start the development server at <http://localhost:3000>.
+
+See the docs for more.
 
 ## Documentation
 
 - [Getting Started](docs#getting-started)
-- [Toolkit Structure](docs#toolkit-structure)
+- [Project Structure](docs#project-structure)
+- [Gulp Tasks](docs#tasks)
 
-## Inspiration
 
-- https://fbrctr.github.io
-- http://solid.buzzfeed.com
-- http://patternlab.io

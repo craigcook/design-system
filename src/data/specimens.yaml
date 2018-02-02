@@ -1,7 +1,8 @@
 alphabet: AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
+characters: ÅåÂâÀàÁáÄäÃãĄąẢảĆćÇçĈĉĐđÉéÏïÎîŁłÑñØøÖöÕõÜüÛû
 digits: 0123456789
 punctuation: ". … , · • : ; ¡ ! ¿ ? { } [ ] ( ) / — – - _ * ‹ › « » ‚ ‘ ’ „ “ ” '"
-characters: "| ¦ @ & † ‡ ❡ ¶ § ◊ ^ ~ © ® ℗ ™"
+special: "| ¦ @ & † ‡ ❡ ¶ § ◊ ^ ~ © ® ℗ ™"
 math: ≈ ~ = ≠ ∙ ÷ ¬ − + ± × ∕ > ≥ ∞ < ≤ % ‰ ∫ ∂ ∆ ∏ ∑ √
 currencies: 1¤ $18 ¢29 €75 ƒ32 ₹572 £68 ¥998’000
 arrows: ↑ ↗ → ↘ ↓ ↙ ← ↖ ↔ ↕

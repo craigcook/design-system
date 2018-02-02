@@ -23,9 +23,10 @@ labels:
     <div id="specimen-zilla-slab" class="mds-specimen mds-specimen-font">
     {{#with (data "specimens")}}
         {{this.alphabet}}
+        {{this.characters}}
         {{this.digits}}
         {{this.punctuation}}
-        {{this.characters}}
+        {{this.special}}
         {{this.currencies}}
     {{/with}}
     </div>
@@ -41,9 +42,10 @@ labels:
     <div id="specimen-open-sans" class="mds-specimen mds-specimen-font">
     {{#with (data "specimens")}}
         {{this.alphabet}}
+        {{this.characters}}
         {{this.digits}}
         {{this.punctuation}}
-        {{this.characters}}
+        {{this.special}}
         {{this.currencies}}
     {{/with}}
     </div>
