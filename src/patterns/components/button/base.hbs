@@ -1,12 +1,16 @@
 ---
-notes: This is the base button class.
+notes: This is the base button pattern.
 hidden: true
-labels:
-  - inprogress
 ---
 
-<button class="button {{class}}"{{#if disabled}} disabled{{/if}}>
-  {{#block "content"}}
-    Button
-  {{/block}}
+<button type="button" class="button{{#if class}} {{class}}{{/if}}">
+{{#block "content"}}
+  Button
+{{/block}}
 </button>
+
+<a href="#" class="button{{#if class}} {{class}}{{/if}}">
+{{#block "content"}}
+  Button
+{{/block}}
+</a>

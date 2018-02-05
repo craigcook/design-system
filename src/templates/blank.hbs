@@ -4,6 +4,7 @@
     {{#block "head"}}
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="shortcut icon" href="{{@root.baseurl}}/static/favicon.ico">
       {{#if title}}
         <title>{{title}} - {{data "project.title"}}</title>
       {{else if name}}
@@ -11,19 +12,16 @@
       {{else}}
         <title>{{data "project.title"}}</title>
       {{/if}}
-      {{#each styles}}
+<!--       {{#each styles}}
         <link rel="stylesheet" href="{{@root.baseurl}}/assets/toolkit/styles/{{this}}.css">
-      {{/each}}
+      {{/each}} -->
     {{/block}}
   </head>
   <body class="{{bodyclass}}">
     {{#block "body"}}
-      {{#block "main"}}
-
-      {{/block}}
+      {{#block "main"}}{{/block}}
     {{/block}}
-    {{#block "foot"}}
 
-    {{/block}}
+    {{#block "foot"}}{{/block}}
   </body>
 </html>

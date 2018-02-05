@@ -1,4 +1,4 @@
-primary:
+primary brand colors:
   - color: "Black"
     hex: "#000000"
     rgb: "rgb(0, 0, 0)"
@@ -26,7 +26,7 @@ primary:
     rgb: "rgb(110, 0, 139)"
     variable: "$color-brand-darkpurple"
 
-secondary:
+secondary brand colors:
   - color: "Dark Green"
     hex: "#005e5e"
     rgb: "rgb(0, 94, 84)"

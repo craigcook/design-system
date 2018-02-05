@@ -68,9 +68,9 @@
     }
 
     .mds-swatch-image {
-        height: 200px;
+        height: 150px;
         margin: 0 auto 1em;
-        width: 200px;
+        width: 150px;
     }
 }
 
@@ -81,6 +81,21 @@
     padding: 10px 20px;
     margin: 0 0 1.5em;
     overflow-x: auto;
+}
+
+.mds-specimen-preview {
+    padding: 20px 0;
+
+    & + .mds-specimen-code {
+        border-top: 1px solid rgba(0, 0, 0, .2);
+        margin: 20px -20px -10px;
+    }
+}
+
+.mds-specimen-code {
+    background: #f8f8f8;
+    padding: 10px 20px;
+    margin: -10px -20px;
 }
 
 .mds-specimen-font {
@@ -234,3 +249,24 @@
         }
     }
 }
+
+// Items
+.mds-item-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.mds-item-links-link {
+    @include font-size-small;
+
+    svg {
+        fill: currentColor;
+        height: 1em;
+        margin-top: -0.375em;
+        position: relative;
+        vertical-align: middle;
+        width: 1.5em;
+    }
+}
+
+
