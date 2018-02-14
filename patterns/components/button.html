@@ -3,8 +3,11 @@
   <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="shortcut icon" href="../../static/favicon.ico">
         <title>Button - Mozilla Design System</title>
+<!--        -->
     <link rel="stylesheet" href="../../assets/drizzle/styles/drizzle.css">
+    <link rel="stylesheet" href="../../assets/drizzle/styles/prism.css">
     <link rel="stylesheet" href="../../assets/css/pebbles/global.css">
     <link rel="stylesheet" href="../../assets/css/system/system-site.css">
   </head>
@@ -35,13 +38,13 @@
                 </a>
             </li>
             <li class="mds-nav-item">
-                <a class="mds-nav-link" href="../../colors.html">
-                  Brand Colors
+                <a class="mds-nav-link" href="../../typography.html">
+                  Typography
                 </a>
             </li>
             <li class="mds-nav-item">
-                <a class="mds-nav-link" href="../../typography.html">
-                  Typography
+                <a class="mds-nav-link" href="../../colors.html">
+                  Color
                 </a>
             </li>
         </ul>
@@ -82,13 +85,52 @@
     <main role="main" class="mds-main">
     <h1>Button</h1>
     
-      <div class="drizzle-Item drizzle-u-rhythm">
-  <div class="drizzle-u-marginEnds">
-<h2 id="primary-button" class="
+      <section class="drizzle-Item">
+  <header class="mds-item-head">
+<h2 id="basic-button" class="
   drizzle-u-inlineBlock
   drizzle-u-alignMiddle
   drizzle-u-padRight">
-    <a href="#primary-button" class="drizzle-u-linkHidden">      Primary Button
+    <a href="#basic-button" class="drizzle-u-linkHidden">      Basic Button
+</a>
+</h2>
+  </header>
+    <div class="drizzle-Item-notes">
+      <p>This is a basic button with no additional modifiers.</p>
+
+    </div>
+
+  <div class="mds-specimen">
+    <div class="mds-specimen-preview ">
+      
+
+<button type="button" class="button">
+  Basic Button
+</button>
+
+<a href="#" class="button">
+  Basic Button
+</a>
+
+    </div>
+      <div class="mds-specimen-code">
+        <pre><code class="language-markup">&lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;button&quot;&gt;
+  Basic Button
+&lt;/button&gt;
+
+&lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;button&quot;&gt;
+  Basic Button
+&lt;/a&gt;</code></pre>
+      </div>
+  </div>
+</section>
+      <section class="drizzle-Item">
+  <header class="mds-item-head">
+<h2 id="dark-button" class="
+  drizzle-u-inlineBlock
+  drizzle-u-alignMiddle
+  drizzle-u-padRight">
+    <a href="#dark-button" class="drizzle-u-linkHidden">      Dark Button
 </a>
 </h2>
   <ul class="
@@ -99,32 +141,155 @@
         inprogress
       </li>
   </ul>
-  </div>
-    <div class="drizzle-Item-notes drizzle-u-rhythm">
-      <p>This is a <strong>primary</strong> button.</p>
+  </header>
+    <div class="drizzle-Item-notes">
+      <p>This is like the basic button, but darker.</p>
 
     </div>
-  <div class="drizzle-u-border">
-    <div class="drizzle-u-pad drizzle-u-cf drizzle-u-posRelative ">
+
+  <div class="mds-specimen">
+    <div class="mds-specimen-preview ">
       
 
-<button class="button button">
-    Primary Button
+<button type="button" class="button button-dark">
+  Dark Button
 </button>
 
+<a href="#" class="button button-dark">
+  Dark Button
+</a>
+
     </div>
-      <pre class="drizzle-u-borderTop drizzle-u-pad"><code class="language-markup">&lt;button class&#x3D;&quot;button button&quot;&gt;
-  Primary Button
-&lt;/button&gt;</code></pre>
+      <div class="mds-specimen-code">
+        <pre><code class="language-markup">&lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;button button-dark&quot;&gt;
+  Dark Button
+&lt;/button&gt;
+
+&lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;button button-dark&quot;&gt;
+  Dark Button
+&lt;/a&gt;</code></pre>
+      </div>
   </div>
-</div>
-      <div class="drizzle-Item drizzle-u-rhythm">
-  <div class="drizzle-u-marginEnds">
-<h2 id="disabled-button" class="
+</section>
+      <section class="drizzle-Item">
+  <header class="mds-item-head">
+<h2 id="green-button" class="
   drizzle-u-inlineBlock
   drizzle-u-alignMiddle
   drizzle-u-padRight">
-    <a href="#disabled-button" class="drizzle-u-linkHidden">      Disabled Button
+    <a href="#green-button" class="drizzle-u-linkHidden">      Green Button
+</a>
+</h2>
+  </header>
+    <div class="drizzle-Item-notes">
+      <p>This is a green button. This should only ever be used for a Firefox download button.</p>
+
+    </div>
+
+  <div class="mds-specimen">
+    <div class="mds-specimen-preview ">
+      
+
+<button type="button" class="button button-green">
+  Green Button
+</button>
+
+<a href="#" class="button button-green">
+  Green Button
+</a>
+
+    </div>
+      <div class="mds-specimen-code">
+        <pre><code class="language-markup">&lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;button button-green&quot;&gt;
+  Green Button
+&lt;/button&gt;
+
+&lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;button button-green&quot;&gt;
+  Green Button
+&lt;/a&gt;</code></pre>
+      </div>
+  </div>
+</section>
+      <section class="drizzle-Item">
+  <header class="mds-item-head">
+<h2 id="hollow-buttons" class="
+  drizzle-u-inlineBlock
+  drizzle-u-alignMiddle
+  drizzle-u-padRight">
+    <a href="#hollow-buttons" class="drizzle-u-linkHidden">      Hollow Buttons
+</a>
+</h2>
+  </header>
+    <div class="drizzle-Item-notes">
+      <p>Some buttons are hollow, with a border and transparent background.</p>
+
+    </div>
+
+  <div class="mds-specimen">
+    <div class="mds-specimen-preview ">
+      
+
+<button type="button" class="button button-hollow">
+  Hollow Button
+</button>
+
+<a href="#" class="button button-hollow">
+  Hollow Button
+</a>
+
+
+<button type="button" class="button button-hollow button-red">
+  Hollow Red Button
+</button>
+
+<a href="#" class="button button-hollow button-red">
+  Hollow Red Button
+</a>
+
+
+<button type="button" class="button button-hollow button-dark">
+  Hollow Dark Button
+</button>
+
+<a href="#" class="button button-hollow button-dark">
+  Hollow Dark Button
+</a>
+
+    </div>
+      <div class="mds-specimen-code">
+        <pre><code class="language-markup">&lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;button button-hollow&quot;&gt;
+  Hollow Button
+&lt;/button&gt;
+
+&lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;button button-hollow&quot;&gt;
+  Hollow Button
+&lt;/a&gt;
+
+&lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;button button-hollow button-red&quot;&gt;
+  Hollow Red Button
+&lt;/button&gt;
+
+&lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;button button-hollow button-red&quot;&gt;
+  Hollow Red Button
+&lt;/a&gt;
+
+&lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;button button-hollow button-dark&quot;&gt;
+  Hollow Dark Button
+&lt;/button&gt;
+
+&lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;button button-hollow button-dark&quot;&gt;
+  Hollow Dark Button
+&lt;/a&gt;</code></pre>
+      </div>
+  </div>
+</section>
+      <section class="drizzle-Item">
+  <header class="mds-item-head">
+<h2 id="orange-button" class="
+  drizzle-u-inlineBlock
+  drizzle-u-alignMiddle
+  drizzle-u-padRight">
+    <a href="#orange-button" class="drizzle-u-linkHidden">      Orange Button
 </a>
 </h2>
   <ul class="
@@ -135,26 +300,86 @@
         inprogress
       </li>
   </ul>
-  </div>
-    <div class="drizzle-Item-notes drizzle-u-rhythm">
-      <p>This is a <em>disabled</em> button.</p>
+  </header>
+    <div class="drizzle-Item-notes">
+      <p>This is an orange button. I&#39;m not sure if we ever use this, but we have a style defined for it.</p>
 
     </div>
-  <div class="drizzle-u-border">
-    <div class="drizzle-u-pad drizzle-u-cf drizzle-u-posRelative ">
+
+  <div class="mds-specimen">
+    <div class="mds-specimen-preview ">
       
 
-<button class="button " disabled>
-    Disabled Button
+<button type="button" class="button button-orange">
+  Orange Button
 </button>
 
+<a href="#" class="button button-orange">
+  Orange Button
+</a>
+
     </div>
-      <pre class="drizzle-u-borderTop drizzle-u-pad"><code class="language-markup">&lt;button class&#x3D;&quot;button &quot; disabled&gt;
-  Disabled Button
-&lt;/button&gt;</code></pre>
+      <div class="mds-specimen-code">
+        <pre><code class="language-markup">&lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;button button-orange&quot;&gt;
+  Orange Button
+&lt;/button&gt;
+
+&lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;button button-orange&quot;&gt;
+  Orange Button
+&lt;/a&gt;</code></pre>
+      </div>
   </div>
-</div>
+</section>
+      <section class="drizzle-Item">
+  <header class="mds-item-head">
+<h2 id="red-button" class="
+  drizzle-u-inlineBlock
+  drizzle-u-alignMiddle
+  drizzle-u-padRight">
+    <a href="#red-button" class="drizzle-u-linkHidden">      Red Button
+</a>
+</h2>
+  <ul class="
+    drizzle-u-inlineBlock
+    drizzle-u-alignMiddle
+    drizzle-u-listUnstyled">
+      <li class="drizzle-Label drizzle-Label--inprogress">
+        inprogress
+      </li>
+  </ul>
+  </header>
+    <div class="drizzle-Item-notes">
+      <p>This is a red button. I&#39;m not sure if we ever use this, but we have a style defined for it.</p>
+
     </div>
-    <script src="../../assets/drizzle/scripts/drizzle.js"></script>
+
+  <div class="mds-specimen">
+    <div class="mds-specimen-preview ">
+      
+
+<button type="button" class="button button-red">
+  Red Button
+</button>
+
+<a href="#" class="button button-red">
+  Red Button
+</a>
+
+    </div>
+      <div class="mds-specimen-code">
+        <pre><code class="language-markup">&lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;button button-red&quot;&gt;
+  Red Button
+&lt;/button&gt;
+
+&lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;button button-red&quot;&gt;
+  Red Button
+&lt;/a&gt;</code></pre>
+      </div>
+  </div>
+</section>
+    </div>
+
+        <script src="../../assets/drizzle/scripts/drizzle.js"></script>
+
   </body>
 </html>

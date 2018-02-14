@@ -3,8 +3,11 @@
   <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="shortcut icon" href="./static/favicon.ico">
         <title>Typography - Mozilla Design System</title>
+<!--        -->
     <link rel="stylesheet" href="./assets/drizzle/styles/drizzle.css">
+    <link rel="stylesheet" href="./assets/drizzle/styles/prism.css">
     <link rel="stylesheet" href="./assets/css/pebbles/global.css">
     <link rel="stylesheet" href="./assets/css/system/system-site.css">
   </head>
@@ -35,13 +38,13 @@
                 </a>
             </li>
             <li class="mds-nav-item">
-                <a class="mds-nav-link" href="./colors.html">
-                  Brand Colors
+                <a class="mds-nav-link" href="./typography.html">
+                  Typography
                 </a>
             </li>
             <li class="mds-nav-item">
-                <a class="mds-nav-link" href="./typography.html">
-                  Typography
+                <a class="mds-nav-link" href="./colors.html">
+                  Color
                 </a>
             </li>
         </ul>
@@ -82,14 +85,13 @@
     <main role="main" class="mds-main">
 <h1>Typography</h1>
 
-<p>Some guidance on typography. This page is a work in progress.</p>
+<p>Some rules and guidlines on typography. Fonts, sizing, spacing, relationships, etc.</p>
 
 
 <section class="mds-section">
 
     <h2>Fonts</h2>
 
-    <img src="./static/img/zilla-slab.png" alt="">
     <h3>Zilla Slab</h3>
     <p>Zilla Slab is our core typeface. We use it for our wordmark, for headlines, and throughout our designs. It’s a contemporary slab serif based on Typotheque’s Tesla. It’s constructed with smooth curves and true italics, which gives text an unexpectedly sophisticated industrial look and a friendly approachability in all weights. Zilla Slab is a free, open source font available for download.</p>
 
@@ -140,19 +142,21 @@
 
     <p>We use SCSS mixins to declare these font sizes, and those mixins include media queries to adjust the sizes at key breakpoints. Text gets bigger as the viewport gets bigger.</p>
 
-    <pre class="mds-specimen"><code>
-    @include font-size-huge;
-    @include font-size-level1;
-    @include font-size-level2;
-    @include font-size-level3;
-    @include font-size-level4;
-    @include font-size-level5;
-    @include font-size-level6;
-    @include font-size-small;
-    @include font-size-extra-small;
-    </code></pre>
+    <div class="mds-specimen">
+    <pre class="mds-specimen-code"><code>@include font-size-huge;
+@include font-size-level1;
+@include font-size-level2;
+@include font-size-level3;
+@include font-size-level4;
+@include font-size-level5;
+@include font-size-level6;
+@include font-size-small;
+@include font-size-extra-small;</code></pre>
+    </div>
 </section>
     </div>
-    <script src="./assets/drizzle/scripts/drizzle.js"></script>
+
+        <script src="./assets/drizzle/scripts/drizzle.js"></script>
+
   </body>
 </html>
