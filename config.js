@@ -13,12 +13,12 @@ module.exports = {
     name: 'css:system'
   },
 
-  'css:drizzle': {
-    src: './src/assets/**/drizzle.css',
-    dest: './dist/assets',
-    prefix: 'drizzle-',
-    name: 'css:drizzle'
-  },
+  // 'css:drizzle': {
+  //   src: './src/assets/**/drizzle.css',
+  //   dest: './dist/assets',
+  //   prefix: 'drizzle-',
+  //   name: 'css:drizzle'
+  // },
 
   copy: {
     src: './src/static/**/*',
@@ -30,8 +30,8 @@ module.exports = {
       webpack: {
         entry: {
           // Drizzle UI scripts
-          'drizzle/scripts/drizzle':
-            './src/assets/drizzle/scripts/drizzle.js',
+          // 'drizzle/scripts/drizzle':
+          //   './src/assets/drizzle/scripts/drizzle.js',
           // Common toolkit scripts
           // 'toolkit/scripts/toolkit':
           //   './src/assets/toolkit/scripts/toolkit.js'
